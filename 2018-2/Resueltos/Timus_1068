@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+	int n,s=0,k=0;
+	scanf("%d",&n);
+	if(n<=0){
+		n=-n;
+		k=1;
+	}
+	while(n){
+		s+=n;
+		--n;
+	}
+	s-=k;
+	if(k) printf("%d",-s);
+	else printf("%d",s);
+	return 0;
+}

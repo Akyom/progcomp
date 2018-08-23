@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+	int h,l,c;
+	scanf("%d%d",&h,&l);
+	c=h+l-1;
+	h=c-h;
+	l=c-l;
+	printf("%d %d",h,l);
+	return 0;
+}
