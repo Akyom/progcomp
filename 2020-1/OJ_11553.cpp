@@ -1,7 +1,10 @@
-#include <bits/stdc++.h>
 //Diego Henríquez
-using namespace std;
 //Hecho por mi
+//Aceptado por juez
+#include <bits/stdc++.h>
+
+using namespace std;
+
 void gridgame(int n, vector<vector<int> > grid, int* pcandies, int suma, int it){
 	/*cerr << "gridgame it: " << it << "\n";
 	for(int i=0; i<grid.size(); ++i){
