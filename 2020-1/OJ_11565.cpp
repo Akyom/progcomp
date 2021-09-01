@@ -1,7 +1,10 @@
-#include <bits/stdc++.h>
-//Diego Henríquez
-using namespace std;
+//Diego Henríquez Valenzuela
 //Hecho por mi
+//Aceptado por juez
+#include <bits/stdc++.h>
+
+using namespace std;
+
 int main(){
 	int n;
 	cin >> n;
